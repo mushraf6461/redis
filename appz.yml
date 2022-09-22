@@ -10,7 +10,7 @@ build:
     image_template: redis-6.2
     
 deploy:
-    context: mushrafk6461/DEV
+    context: mushraf6461/DEV
     replicas: 1
     type: statefulset
     port:
