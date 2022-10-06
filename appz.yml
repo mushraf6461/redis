@@ -11,7 +11,7 @@ build:
     
 deploy:
     context: mushraf6461/DEV
-    replicas: 1
+    replicas: 3
     type: statefulset
     port:
     - 6379
